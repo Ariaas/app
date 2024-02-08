@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 28, 68, 68)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'La aplicación de rijals'),
+      home: const MyHomePage(title: 'Nuestra practica'),
     );
   }
 }
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Epale',
+              'Dolores de cabeza: ',
             ),
             Text(
               '$_counter',
